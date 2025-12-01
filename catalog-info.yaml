@@ -4,7 +4,7 @@ metadata:
   name: raman-customer-orders-service2
   description: REST API for customer orders
   annotations:
-    github.com/project-slug: ramannkhanna2/raman-customer-orders-service2
+    github.com/project-slug: kunasharma/raman-customer-orders-service2
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
