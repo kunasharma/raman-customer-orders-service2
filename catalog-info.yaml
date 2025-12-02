@@ -2,11 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: raman-customer-orders-service2
-  description: Flask microservice
+  description: REST API for customer orders
   annotations:
     github.com/project-slug: kunasharma/raman-customer-orders-service2
+    grafana/dashboard-url: http://3.148.171.51:3001/d/ad8hvtp/raman-micro-dashboard
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: user:sharma
-  lifecycle: production
+  owner: sharma
+  lifecycle: experimental
