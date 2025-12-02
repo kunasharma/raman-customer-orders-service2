@@ -1,8 +1,28 @@
-site_name: Service Documentation
+site_name: customer-orders-service
 nav:
   - Home: index.md
-skeleton/docs/index.md
-# Welcome to Your New Flask Service
+  - Architecture:
+      - Overview: overview.md
+      - Components: docs/architecture/components.md
+      - Sequence Diagrams: docs/architecture/sequence-diagrams.md
+      - Data Flow: docs/architecture/data-flow.md
 
-This documentation was generated automatically using Backstage TechDocs.
+  - API Documentation:
+      - REST Endpoints: docs/api/rest-endpoints.md
+      - Error Codes: docs/api/error-codes.md
+      - Request/Response Models: docs/api/models.md
 
+  - Operations:
+      - Deployment Guide: docs/operations/deployment.md
+      - Scaling & Autoscaling: docs/operations/scaling.md
+      - Monitoring: docs/operations/monitoring.md
+      - Logging: docs/operations/logging.md
+
+  - Troubleshooting:
+      - Common Issues: docs/troubleshooting/common-issues.md
+      - FAQs: docs/troubleshooting/faq.md
+
+  - Changelog:
+      - Release Notes: docs/changelog/release-notes.md
+plugins:
+  - techdocs-core
