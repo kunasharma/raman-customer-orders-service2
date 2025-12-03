@@ -5,9 +5,10 @@ metadata:
   description: REST API for customer orders
   annotations:
     github.com/project-slug: kunasharma/raman-customer-orders-service2
-    grafana/dashboard-url: http://3.148.171.51:3001/d/ad8hvtp/raman-micro-dashboard
+    grafana/dashboard-url: http://18.116.40.231:3001/d/adhq7ct/gps-app-dashboard
+    grafana/dashboard-selector: gps-micro
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: sharma
+  owner: raman
   lifecycle: experimental
